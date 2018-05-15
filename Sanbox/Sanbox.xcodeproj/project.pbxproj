@@ -19,6 +19,7 @@
 		6593205020A58AC6006BB8FA /* LogInReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593204F20A58AC6006BB8FA /* LogInReq.m */; };
 		6593205520A58B76006BB8FA /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593205420A58B76006BB8FA /* ShareView.m */; };
 		65955C8020AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m in Sources */ = {isa = PBXBuildFile; fileRef = 65955C7E20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m */; };
+		65955C8320AA9CE20042B59F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65955C8220AA9CE20042B59F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		6593205420A58B76006BB8FA /* ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 		65955C7E20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_YUEJIE.m"; sourceTree = "<group>"; };
 		65955C7F20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_YUEJIE.h"; sourceTree = "<group>"; };
+		65955C8220AA9CE20042B59F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65955C8320AA9CE20042B59F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +102,7 @@
 				65931FD520A5775F006BB8FA /* SanboxTests */,
 				65931FE020A5775F006BB8FA /* SanboxUITests */,
 				65931FBB20A5775F006BB8FA /* Products */,
+				65955C8120AA9CE20042B59F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +222,14 @@
 				65955C7E20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		65955C8120AA9CE20042B59F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65955C8220AA9CE20042B59F /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
