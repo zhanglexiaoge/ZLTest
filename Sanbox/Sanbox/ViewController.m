@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 
 @interface ViewController ()
-@property(nonatomic,weak)WLRRouter * router;
+
 @end
 
 @implementation ViewController
