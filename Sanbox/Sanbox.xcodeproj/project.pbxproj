@@ -14,10 +14,6 @@
 		65931FD720A5775F006BB8FA /* SanboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65931FD620A5775F006BB8FA /* SanboxTests.m */; };
 		65931FE220A5775F006BB8FA /* SanboxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65931FE120A5775F006BB8FA /* SanboxUITests.m */; };
 		6593200520A57823006BB8FA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593200420A57823006BB8FA /* TestViewController.m */; };
-		6593204820A58A28006BB8FA /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593204720A58A28006BB8FA /* LogInViewController.m */; };
-		6593204C20A58A6D006BB8FA /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593204B20A58A6D006BB8FA /* LoginModel.m */; };
-		6593205020A58AC6006BB8FA /* LogInReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593204F20A58AC6006BB8FA /* LogInReq.m */; };
-		6593205520A58B76006BB8FA /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593205420A58B76006BB8FA /* ShareView.m */; };
 		65955C8020AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m in Sources */ = {isa = PBXBuildFile; fileRef = 65955C7E20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m */; };
 		65955C8320AA9CE20042B59F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65955C8220AA9CE20042B59F /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -56,14 +52,6 @@
 		65931FE320A5775F006BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6593200320A57823006BB8FA /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		6593200420A57823006BB8FA /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		6593204620A58A28006BB8FA /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
-		6593204720A58A28006BB8FA /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
-		6593204A20A58A6D006BB8FA /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
-		6593204B20A58A6D006BB8FA /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
-		6593204E20A58AC6006BB8FA /* LogInReq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInReq.h; sourceTree = "<group>"; };
-		6593204F20A58AC6006BB8FA /* LogInReq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInReq.m; sourceTree = "<group>"; };
-		6593205320A58B76006BB8FA /* ShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
-		6593205420A58B76006BB8FA /* ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 		65955C7E20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_YUEJIE.m"; sourceTree = "<group>"; };
 		65955C7F20AA8DF30042B59F /* NSArray+NSArray_YUEJIE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_YUEJIE.h"; sourceTree = "<group>"; };
 		65955C8220AA9CE20042B59F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -120,10 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				65955C7D20AA8D990042B59F /* Classes */,
-				6593205620A58DB3006BB8FA /* BaseRoute */,
-				6593205120A58AEE006BB8FA /* OC组件 */,
-				6593204520A589F1006BB8FA /* LogIn模块 */,
-				6593204420A58513006BB8FA /* RoutesHelp */,
 				65931FBD20A5775F006BB8FA /* AppDelegate.h */,
 				65931FBE20A5775F006BB8FA /* AppDelegate.m */,
 				65931FC020A5775F006BB8FA /* ViewController.h */,
@@ -153,66 +137,6 @@
 				65931FE320A5775F006BB8FA /* Info.plist */,
 			);
 			path = SanboxUITests;
-			sourceTree = "<group>";
-		};
-		6593204420A58513006BB8FA /* RoutesHelp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RoutesHelp;
-			sourceTree = "<group>";
-		};
-		6593204520A589F1006BB8FA /* LogIn模块 */ = {
-			isa = PBXGroup;
-			children = (
-				6593204D20A58A9D006BB8FA /* LogInReq */,
-				6593204920A58A51006BB8FA /* LoginModel */,
-				6593204620A58A28006BB8FA /* LogInViewController.h */,
-				6593204720A58A28006BB8FA /* LogInViewController.m */,
-			);
-			path = "LogIn模块";
-			sourceTree = "<group>";
-		};
-		6593204920A58A51006BB8FA /* LoginModel */ = {
-			isa = PBXGroup;
-			children = (
-				6593204A20A58A6D006BB8FA /* LoginModel.h */,
-				6593204B20A58A6D006BB8FA /* LoginModel.m */,
-			);
-			path = LoginModel;
-			sourceTree = "<group>";
-		};
-		6593204D20A58A9D006BB8FA /* LogInReq */ = {
-			isa = PBXGroup;
-			children = (
-				6593204E20A58AC6006BB8FA /* LogInReq.h */,
-				6593204F20A58AC6006BB8FA /* LogInReq.m */,
-			);
-			path = LogInReq;
-			sourceTree = "<group>";
-		};
-		6593205120A58AEE006BB8FA /* OC组件 */ = {
-			isa = PBXGroup;
-			children = (
-				6593205220A58B50006BB8FA /* ShareView */,
-			);
-			path = "OC组件";
-			sourceTree = "<group>";
-		};
-		6593205220A58B50006BB8FA /* ShareView */ = {
-			isa = PBXGroup;
-			children = (
-				6593205320A58B76006BB8FA /* ShareView.h */,
-				6593205420A58B76006BB8FA /* ShareView.m */,
-			);
-			path = ShareView;
-			sourceTree = "<group>";
-		};
-		6593205620A58DB3006BB8FA /* BaseRoute */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseRoute;
 			sourceTree = "<group>";
 		};
 		65955C7D20AA8D990042B59F /* Classes */ = {
@@ -365,11 +289,7 @@
 			files = (
 				65931FC220A5775F006BB8FA /* ViewController.m in Sources */,
 				65931FCD20A5775F006BB8FA /* main.m in Sources */,
-				6593205520A58B76006BB8FA /* ShareView.m in Sources */,
 				6593200520A57823006BB8FA /* TestViewController.m in Sources */,
-				6593204C20A58A6D006BB8FA /* LoginModel.m in Sources */,
-				6593205020A58AC6006BB8FA /* LogInReq.m in Sources */,
-				6593204820A58A28006BB8FA /* LogInViewController.m in Sources */,
 				65955C8020AA8DF30042B59F /* NSArray+NSArray_YUEJIE.m in Sources */,
 				65931FBF20A5775F006BB8FA /* AppDelegate.m in Sources */,
 			);
