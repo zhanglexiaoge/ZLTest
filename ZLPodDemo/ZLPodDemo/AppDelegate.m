@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeViewController.h"
+#import "ZLNavViewController.h"
+#import "ZLTabBarViewController.h"
+#import "JLRoutes.h"
+#import "AppDelegate+RegisterRoute.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +21,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ZLTabBarViewController *tabbarController = [[ ZLTabBarViewController  alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = tabbarController;
+    [self.window makeKeyAndVisible];
+    [self registerRoute];
     return YES;
+}
+- (void)registerRoute{
+   //注册路由 app内页面跳转
+    [self registerRouteWithScheme:@"ZLpodJLRouteURLHome"];
+    
+}
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options{
+    NSLog(@"%@",url);
+    
+    return [[JLRoutes routesForScheme:@"ZLpodJLRouteURLHome"]routeURL:url];
+    
+   
 }
 
 

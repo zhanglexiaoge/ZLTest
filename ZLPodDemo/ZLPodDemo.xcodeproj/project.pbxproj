@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656FD62E20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 656FD62D20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.m */; };
+		656FD63120AC0257008E6DEB /* HomeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656FD63020AC0257008E6DEB /* HomeFirstViewController.m */; };
+		6590B10420ABCD0700A64525 /* JLROptionalRouteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B0FB20ABCD0700A64525 /* JLROptionalRouteParser.m */; };
+		6590B10520ABCD0700A64525 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B0FD20ABCD0700A64525 /* JLRoutes.m */; };
+		6590B10620ABCD0700A64525 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B0FF20ABCD0700A64525 /* JLRRouteDefinition.m */; };
+		6590B10720ABCD0700A64525 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B10120ABCD0700A64525 /* JLRRouteRequest.m */; };
+		6590B10820ABCD0700A64525 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B10320ABCD0700A64525 /* JLRRouteResponse.m */; };
+		6590B10D20ABCD9500A64525 /* ZLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B10C20ABCD9500A64525 /* ZLTabBarViewController.m */; };
+		6590B11420ABCDF900A64525 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B11320ABCDF900A64525 /* HomeViewController.m */; };
+		6590B11820ABCE2500A64525 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B11720ABCE2500A64525 /* MineViewController.m */; };
+		6590B11D20ABCE5700A64525 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B11C20ABCE5700A64525 /* FindViewController.m */; };
+		6590B12120ABCF0000A64525 /* ZLNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590B12020ABCF0000A64525 /* ZLNavViewController.m */; };
 		65F51A0C20AAA1210077E607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A0B20AAA1210077E607 /* AppDelegate.m */; };
 		65F51A0F20AAA1210077E607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A0E20AAA1210077E607 /* ViewController.m */; };
 		65F51A1220AAA1210077E607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F51A1020AAA1210077E607 /* Main.storyboard */; };
@@ -15,7 +27,7 @@
 		65F51A1A20AAA1210077E607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A1920AAA1210077E607 /* main.m */; };
 		65F51A2420AAA1210077E607 /* ZLPodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A2320AAA1210077E607 /* ZLPodDemoTests.m */; };
 		65F51A2F20AAA1210077E607 /* ZLPodDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A2E20AAA1210077E607 /* ZLPodDemoUITests.m */; };
-		65F51A3F20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A3E20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m */; };
+		DF98E4D35DF1802F71640A35 /* libPods-ZLPodDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB8B65A3753AC011EBAF62 /* libPods-ZLPodDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DAB8B65A3753AC011EBAF62 /* libPods-ZLPodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLPodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FD62C20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RegisterRoute.h"; sourceTree = "<group>"; };
+		656FD62D20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RegisterRoute.m"; sourceTree = "<group>"; };
+		656FD62F20AC0257008E6DEB /* HomeFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFirstViewController.h; sourceTree = "<group>"; };
+		656FD63020AC0257008E6DEB /* HomeFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFirstViewController.m; sourceTree = "<group>"; };
+		6590B0FA20ABCD0700A64525 /* JLROptionalRouteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLROptionalRouteParser.h; sourceTree = "<group>"; };
+		6590B0FB20ABCD0700A64525 /* JLROptionalRouteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLROptionalRouteParser.m; sourceTree = "<group>"; };
+		6590B0FC20ABCD0700A64525 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
+		6590B0FD20ABCD0700A64525 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		6590B0FE20ABCD0700A64525 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteDefinition.h; sourceTree = "<group>"; };
+		6590B0FF20ABCD0700A64525 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteDefinition.m; sourceTree = "<group>"; };
+		6590B10020ABCD0700A64525 /* JLRRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteRequest.h; sourceTree = "<group>"; };
+		6590B10120ABCD0700A64525 /* JLRRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteRequest.m; sourceTree = "<group>"; };
+		6590B10220ABCD0700A64525 /* JLRRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteResponse.h; sourceTree = "<group>"; };
+		6590B10320ABCD0700A64525 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
+		6590B10B20ABCD9500A64525 /* ZLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTabBarViewController.h; sourceTree = "<group>"; };
+		6590B10C20ABCD9500A64525 /* ZLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarViewController.m; sourceTree = "<group>"; };
+		6590B11220ABCDF900A64525 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6590B11320ABCDF900A64525 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6590B11620ABCE2500A64525 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		6590B11720ABCE2500A64525 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		6590B11B20ABCE5700A64525 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		6590B11C20ABCE5700A64525 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		6590B11F20ABCF0000A64525 /* ZLNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNavViewController.h; sourceTree = "<group>"; };
+		6590B12020ABCF0000A64525 /* ZLNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNavViewController.m; sourceTree = "<group>"; };
 		65F51A0720AAA1210077E607 /* ZLPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F51A0A20AAA1210077E607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F51A0B20AAA1210077E607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +89,8 @@
 		65F51A2A20AAA1210077E607 /* ZLPodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLPodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F51A2E20AAA1210077E607 /* ZLPodDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPodDemoUITests.m; sourceTree = "<group>"; };
 		65F51A3020AAA1210077E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65F51A3D20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArray_YUEJIE.h"; sourceTree = "<group>"; };
-		65F51A3E20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArray_YUEJIE.m"; sourceTree = "<group>"; };
+		9E28AADE71F2A710269D5D54 /* Pods-ZLPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLPodDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLPodDemo/Pods-ZLPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B7CD219774A92F4707903B /* Pods-ZLPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLPodDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLPodDemo/Pods-ZLPodDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF98E4D35DF1802F71640A35 /* libPods-ZLPodDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6590B0F820ABCCDF00A64525 /* JLRoutes第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				6590B0F920ABCD0700A64525 /* Classes */,
+			);
+			path = "JLRoutes第三方";
+			sourceTree = "<group>";
+		};
+		6590B0F920ABCD0700A64525 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6590B0FA20ABCD0700A64525 /* JLROptionalRouteParser.h */,
+				6590B0FB20ABCD0700A64525 /* JLROptionalRouteParser.m */,
+				6590B0FC20ABCD0700A64525 /* JLRoutes.h */,
+				6590B0FD20ABCD0700A64525 /* JLRoutes.m */,
+				6590B0FE20ABCD0700A64525 /* JLRRouteDefinition.h */,
+				6590B0FF20ABCD0700A64525 /* JLRRouteDefinition.m */,
+				6590B10020ABCD0700A64525 /* JLRRouteRequest.h */,
+				6590B10120ABCD0700A64525 /* JLRRouteRequest.m */,
+				6590B10220ABCD0700A64525 /* JLRRouteResponse.h */,
+				6590B10320ABCD0700A64525 /* JLRRouteResponse.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6590B10920ABCD2600A64525 /* BaseNativeView */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11E20ABCE6F00A64525 /* ZLNav */,
+				6590B10A20ABCD4500A64525 /* ZLTabbar */,
+			);
+			path = BaseNativeView;
+			sourceTree = "<group>";
+		};
+		6590B10A20ABCD4500A64525 /* ZLTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6590B10B20ABCD9500A64525 /* ZLTabBarViewController.h */,
+				6590B10C20ABCD9500A64525 /* ZLTabBarViewController.m */,
+			);
+			path = ZLTabbar;
+			sourceTree = "<group>";
+		};
+		6590B10E20ABCDA800A64525 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11120ABCDCC00A64525 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6590B10F20ABCDB800A64525 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11520ABCE1000A64525 /* VC */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		6590B11020ABCDBF00A64525 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11920ABCE2C00A64525 /* VC */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		6590B11120ABCDCC00A64525 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11220ABCDF900A64525 /* HomeViewController.h */,
+				6590B11320ABCDF900A64525 /* HomeViewController.m */,
+				656FD62F20AC0257008E6DEB /* HomeFirstViewController.h */,
+				656FD63020AC0257008E6DEB /* HomeFirstViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6590B11520ABCE1000A64525 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11620ABCE2500A64525 /* MineViewController.h */,
+				6590B11720ABCE2500A64525 /* MineViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6590B11920ABCE2C00A64525 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11B20ABCE5700A64525 /* FindViewController.h */,
+				6590B11C20ABCE5700A64525 /* FindViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6590B11E20ABCE6F00A64525 /* ZLNav */ = {
+			isa = PBXGroup;
+			children = (
+				6590B11F20ABCF0000A64525 /* ZLNavViewController.h */,
+				6590B12020ABCF0000A64525 /* ZLNavViewController.m */,
+			);
+			path = ZLNav;
+			sourceTree = "<group>";
+		};
 		65F519FE20AAA1210077E607 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +231,8 @@
 				65F51A2220AAA1210077E607 /* ZLPodDemoTests */,
 				65F51A2D20AAA1210077E607 /* ZLPodDemoUITests */,
 				65F51A0820AAA1210077E607 /* Products */,
+				DBC9E55056FC894616C8ED62 /* Pods */,
+				A66CD8ADAD972FA5828D4C83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,9 +249,15 @@
 		65F51A0920AAA1210077E607 /* ZLPodDemo */ = {
 			isa = PBXGroup;
 			children = (
-				65F51A3C20AAA26C0077E607 /* Classes */,
+				6590B11020ABCDBF00A64525 /* Find */,
+				6590B10F20ABCDB800A64525 /* Mine */,
+				6590B10E20ABCDA800A64525 /* Home */,
+				6590B10920ABCD2600A64525 /* BaseNativeView */,
+				6590B0F820ABCCDF00A64525 /* JLRoutes第三方 */,
 				65F51A0A20AAA1210077E607 /* AppDelegate.h */,
 				65F51A0B20AAA1210077E607 /* AppDelegate.m */,
+				656FD62C20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.h */,
+				656FD62D20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.m */,
 				65F51A0D20AAA1210077E607 /* ViewController.h */,
 				65F51A0E20AAA1210077E607 /* ViewController.m */,
 				65F51A1020AAA1210077E607 /* Main.storyboard */,
@@ -136,13 +287,21 @@
 			path = ZLPodDemoUITests;
 			sourceTree = "<group>";
 		};
-		65F51A3C20AAA26C0077E607 /* Classes */ = {
+		A66CD8ADAD972FA5828D4C83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65F51A3D20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.h */,
-				65F51A3E20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m */,
+				4DAB8B65A3753AC011EBAF62 /* libPods-ZLPodDemo.a */,
 			);
-			path = Classes;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBC9E55056FC894616C8ED62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E28AADE71F2A710269D5D54 /* Pods-ZLPodDemo.debug.xcconfig */,
+				B8B7CD219774A92F4707903B /* Pods-ZLPodDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F51A3320AAA1210077E607 /* Build configuration list for PBXNativeTarget "ZLPodDemo" */;
 			buildPhases = (
+				D6708CFA12FA75928C6D4E78 /* [CP] Check Pods Manifest.lock */,
 				65F51A0320AAA1210077E607 /* Sources */,
 				65F51A0420AAA1210077E607 /* Frameworks */,
 				65F51A0520AAA1210077E607 /* Resources */,
+				0C2850E5B57F69EE670DE38C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,15 +434,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C2850E5B57F69EE670DE38C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLPodDemo/Pods-ZLPodDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLPodDemo/Pods-ZLPodDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6708CFA12FA75928C6D4E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLPodDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65F51A0320AAA1210077E607 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F51A3F20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m in Sources */,
 				65F51A0F20AAA1210077E607 /* ViewController.m in Sources */,
+				6590B10D20ABCD9500A64525 /* ZLTabBarViewController.m in Sources */,
+				6590B10520ABCD0700A64525 /* JLRoutes.m in Sources */,
+				6590B11D20ABCE5700A64525 /* FindViewController.m in Sources */,
+				6590B11420ABCDF900A64525 /* HomeViewController.m in Sources */,
+				6590B10420ABCD0700A64525 /* JLROptionalRouteParser.m in Sources */,
+				6590B11820ABCE2500A64525 /* MineViewController.m in Sources */,
+				6590B12120ABCF0000A64525 /* ZLNavViewController.m in Sources */,
+				6590B10820ABCD0700A64525 /* JLRRouteResponse.m in Sources */,
+				6590B10720ABCD0700A64525 /* JLRRouteRequest.m in Sources */,
 				65F51A1A20AAA1210077E607 /* main.m in Sources */,
+				656FD62E20ABFCDE008E6DEB /* AppDelegate+RegisterRoute.m in Sources */,
 				65F51A0C20AAA1210077E607 /* AppDelegate.m in Sources */,
+				656FD63120AC0257008E6DEB /* HomeFirstViewController.m in Sources */,
+				6590B10620ABCD0700A64525 /* JLRRouteDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +653,13 @@
 		};
 		65F51A3420AAA1210077E607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E28AADE71F2A710269D5D54 /* Pods-ZLPodDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26QGR75XUB;
 				INFOPLIST_FILE = ZLPodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.IntelligenceCommunity.ZLPodDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,11 +669,13 @@
 		};
 		65F51A3520AAA1210077E607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B7CD219774A92F4707903B /* Pods-ZLPodDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26QGR75XUB;
 				INFOPLIST_FILE = ZLPodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.IntelligenceCommunity.ZLPodDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

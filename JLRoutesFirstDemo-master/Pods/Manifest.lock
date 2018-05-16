@@ -1,0 +1,15 @@
+PODS:
+  - JLRoutes (2.0.5)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - JLRoutes
+  - Masonry
+
+SPEC CHECKSUMS:
+  JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 929fe0e3018ddfb3f407a39498acbffa2fabbc1e
+
+COCOAPODS: 1.2.1

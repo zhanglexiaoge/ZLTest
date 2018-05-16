@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSArray+NSArray_YUEJIE.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //测试数组是否越界
+    NSArray * array =@[@"1",@"2"];
+    NSLog(@"---------- %@", [array objectAtIndexCheck:3]);
+    array.test= @"tets";//给NSArray 使用runtime添加的属性
+    array.Testnum = 18;
+    NSLog(@"%@ %ld",array.test,array.Testnum);
 }
 
 
