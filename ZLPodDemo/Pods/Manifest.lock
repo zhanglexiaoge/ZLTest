@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.12)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - ZLpodTest (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.0)
+  - Masonry
+  - MJRefresh (= 3.1.12)
+  - SDCycleScrollView (~> 1.75)
+  - SDWebImage
+  - ZLpodTest (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Masonry
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - ZLpodTest
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  ZLpodTest: 059e619910f99203b37e6b33860461316e2ac766
+
+PODFILE CHECKSUM: eecbc17964b969d507ec0d45fe7e49a20b23c978
+
+COCOAPODS: 1.5.0
